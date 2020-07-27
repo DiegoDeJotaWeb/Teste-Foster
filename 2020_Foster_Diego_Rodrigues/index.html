@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Foster - WWP Company</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="author" content="Diego Rodrigues Joaquim">
+    <meta name="keywords" content="Teste, Foster, WWP Grupo, Estágio, Programação, Front-end.">
+    <meta name="description" content="Teste para estagiar na agência Foster, no setor de desenvolvimento web (programação Front-end).">
+    <script>
+        window.onchange = function() {
+          var altura = document.querySelector('.bloco-left').offsetHeight;
+          document.querySelector('.bloco-right').style.height = altura + 'px';
+        };
+    </script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="logo"><img src="images/foster.jpg" alt=""></div>
+            <form id="pesquisar">
+
+                <a href=""><img src="images/busca-botao.jpg" alt=""></a>
+                <input type="text" placeholder="BUSCAR">
+            </form>
+        </header>
+        <nav id="pb">
+            <a id="toggle" onclick="toggle()" class="none">menu</a>
+            <ul class="menu" id="menu">
+                <li id="btn1"><a href="#">Home</a></li>
+                <li id="btn2"><a href="#">Sobre</a></li>
+                <li id="btn3"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="bannerimg">
+            <img src="images/front-end.jpg" alt="" id="banner1">
+            <img src="images/monitor.png" id="banner2" alt="">
+        </div>
+        <section>
+            <div class="bloco bloco-left">
+                <h1 class="titulo cor-texto">LOREM IPSUM</h1>
+                <img src="images/materiais-trabalho.jpg" alt="">
+                <p class="texto cor-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia!</p><br>
+                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum id atque porro obcaecati officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem nisi tempora temporibus facere consequuntur adipisci tempore sit omnis laboriosam, ipsum.</p>
+            </div>
+            <div class="bloco bloco-right">
+                <div class="img-longa">
+                    <img src="images/trabalho-cafe.jpg" alt="">
+                </div>
+                <div class="text-bloco-right">
+                    <h1 class="titulo cor-texto">LOREM IPSUM</h1>
+                    <ul class="lista texto cor-texto">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Quam tenetur at quas, quae accusamus neque!</li>
+                        <li>Distinctio quasi nam amet odit quisqua.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi accusantium tenetur iste corrupti dignissimos.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque omnis sed fuga itaque alias.</li>
+                        <li>Sint nam repellat ipsam natus ea, sequi </li>
+                        <li>Totam rem nesciunt laborum ad laboriosam, cum, quae, eos odio fuga necessitatibus sit soluta ipsam beatae!</li>
+                        <li>Cupiditate quae, molestiae atque modi tempore id provident aliquid inventore omnis cum labore.</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>2011 Foster Web Solutions & Consulting / Todos os direiros reservados.</p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

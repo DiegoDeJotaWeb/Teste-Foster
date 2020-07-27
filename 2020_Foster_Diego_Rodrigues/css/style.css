@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-width: 400px;
+}
+
+header {
+    height: 148px;
+}
+
+.block {
+    display: block !important;
+}
+
+.titulo {
+
+    font-family: ;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.texto {
+    font-family: ;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+#btn1 {
+    background: #667a82;
+    margin-right: 0.5%;
+}
+
+#btn2 {
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+#btn3 {
+    margin-left: 0.5%;
+}
+
+#btn2,
+#btn3 {
+    background: #3d5057;
+}
+
+.cor-fundo {
+    background: #f0f0f0;
+}
+
+.cor-texto {
+    color: #354348;
+}
+
+main {
+    width: 80%;
+    height: 300px;
+    margin: 24px auto;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo img {
+    width: 183px;
+}
+
+#pesquisar {
+    width: 80%;
+}
+
+#logo,
+#pesquisar {
+    float: left;
+    height: 148px;
+}
+
+#pesquisar input[type=text] {
+    margin-top: 100px;
+    height: 30px;
+    border: 1px solid #c4c4c4;
+    color: #c4c4c4;
+    font-size: 14px;
+    font-weight: normal;
+    width: 25%;
+}
+
+#pesquisar input[type=text]::-webkit-input-placeholder {
+    color: #c4c4c4;
+    padding-left: 8px;
+}
+
+#pesquisar input[type=text]:-moz-placeholder {
+    /* Firefox 18- */
+    color: #c4c4c4;
+    padding-left: 8px;
+}
+
+#pesquisar input[type=text]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #c4c4c4;
+    padding-left: 8px;
+}
+
+#pesquisar input[type=text]:-ms-input-placeholder {
+    color: #c4c4c4;
+    padding-left: 8px;
+}
+
+#pesquisar img {
+    margin-top: 98px;
+    height: 32px;
+}
+
+#pesquisar input[type=text],
+#pesquisar img {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+#toggle {
+    text-align: center;
+    background: #3d5057;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color: #ffffff;
+    height: 40px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    /*border-right:1px solid #c0c0c0; */
+    width: 32.66%;
+    text-align: center;
+    height: 40px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color: #ffffff;
+    height: 40px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.bloco {
+    width: 48%;
+    float: left;
+    background: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bloco-left {
+    margin-right: 2%;
+}
+
+.bloco-right {
+    margin-left: 2%;
+}
+
+.bloco-left h1 {
+    float: left;
+    width: 60%;
+}
+
+.bloco-left img {
+    float: right;
+    width: 40%;
+    padding: 0px 0px 5px 5px;
+}
+
+.bloco .lista li {
+    margin-bottom: 15px;
+}
+
+.img-longa {
+    float: left;
+    width: 30%;
+}
+
+.img-longa img {
+    width: 70%;
+}
+
+.text-bloco-right {
+    float: right;
+    width: 70%;
+}
+
+.bannerimg {
+    position: relative;
+    margin-bottom: 6%;
+}
+
+.bannerimg #banner1 {
+    width: 100%;
+}
+
+.bannerimg #banner2 {
+    width: 35%;
+    bottom: -30%;
+    right: -2%;
+    position: absolute;
+}
+
+footer {
+    color: #6a6565;
+    font-family: ;
+    font-size: 9px;
+    font-weight: normal;
+    background: #dddddd;
+    clear: both;
+    height: 44px;
+    margin: 25px 0px;
+    text-align: center;
+}
+
+footer p {
+    line-height: 42px;
+}
+
+@media (max-width: 768px) {
+
+    .bloco {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .bloco-right,
+    .bloco-left {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    #logo img {
+        width: 183px;
+    }
+
+    #pesquisar input[type=text] {
+        width: 38%;
+    }
+
+
+}
